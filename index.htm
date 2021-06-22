@@ -1,0 +1,1074 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>淮北师范大学</title>
+    <link href="files/default.css" rel="stylesheet" type="text/css">
+    <link href="files/index.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript">
+        var siteSetup = {
+            sitePath: '/',
+            ajaxPath: '/ajax.aspx',
+            skinPath: '/Template/Default/Skin/'
+        };
+    </script>
+    <script language="javascript" type="text/javascript" src="files/jquery_003.js"></script>
+    <script language="javascript" type="text/javascript" src="files/jquery_002.js"></script>
+    <script language="javascript" type="text/javascript" src="files/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="files/js.js"></script>
+    <script language="javascript" type="text/javascript" src="files/swfobject.js"></script>
+
+    <!--[if IE 6]>
+<script type="text/javascript" src="/Template/Default/Skin/js/DD_belatedPNG.js"></script>
+<script>
+  DD_belatedPNG.fix('.png_bg');
+</script>
+<![endif]-->
+
+    <script type="text/javascript" src="files/23.js"></script>
+</head>
+
+<body>
+    <div id="top">
+        <div class="head">
+            <div class="wolcome">欢迎来到淮北师范大学！</div>
+            <div class="login">
+                <a href="http://210.45.128.34/">旧版回顾</a>
+            </div>
+        </div>
+    </div>
+    <div class="clear black"></div>
+
+    <div id="header">
+        <div class="headbanner">
+            <div class="search">
+                <a href="javascript:gSearch()" class="searchBtn">搜索</a>
+                <input type="text" maxlength="" id="topKeyWord" class="keyWord" onfocus="this.value='';this.style.color='#333'">
+
+                <script type="text/javascript">
+                    if ('' != '') {
+                        document.getElementById('topKeyWord').value = '';
+                    }
+                    document.getElementById("topKeyWord").onkeydown = function(e) {
+                        e = e || window.event;
+                        if (e.keyCode == 13) {
+                            gSearch();
+                        }
+                    }
+
+                    function gSearch() {
+                        var keyword = document.getElementById('topKeyWord').value;
+                        if (keyword == '' || keyword == "请输入搜索关键字") {
+                            alert("请输入搜索关键字");
+                        } else {
+                            window.location = '/search.aspx?searchtype=0&fieldOption=title&Keyword=' + encodeURI(keyword);
+                        }
+                    }
+                </script>
+            </div>
+            <div class="logo">
+                <a href="http://www.chnu.edu.cn/"><img src="files/logo.png" width="385" height="108"></a>
+            </div>
+        </div>
+    </div>
+
+    <!--导航 s-->
+    <div class="mainNav" id="navBox">
+        <ul id="mainNavType" class="mainNavType">
+            <li class="li1 first1 on1" id="liID-2">
+                <h4 class="h1" id="hID-2"><a class="a1" id="aID-2" href="http://www.chnu.edu.cn/Default.aspx">网站首页</a></h4>
+            </li>
+            <li class="li1 hasUl1" id="liID13">
+                <h4 class="h1" id="hID13"><a class="a1" id="aID13" href="http://www.chnu.edu.cn/Category_13/Index.aspx">学校概况</a></h4>
+                <ul class="ul1" id="ulID13" style="display: none;">
+                    <li class="li2 first2" id="liID76">
+                        <h4 class="h2" id="hID76"><a class="a2" id="aID76" href="http://www.chnu.edu.cn/Category_76/Index.aspx">学校简介</a></h4>
+                    </li>
+                    <li class="li2" id="liID3287">
+                        <h4 class="h2" id="hID3287"><a class="a2" id="aID3287" href="http://www.chnu.edu.cn/Category_3287/Index.aspx">现任领导</a></h4>
+                    </li>
+                    <li class="li2 last2 on2" id="liID82">
+                        <h4 class="h2" id="hID82"><a class="a2" id="aID82" href="http://www.chnu.edu.cn/Category_82/Index.aspx">校园风光</a></h4>
+                    </li>
+                </ul>
+            </li>
+            <li class="li1 hasUl1" id="liID33">
+                <h4 class="h1" id="hID33"><a class="a1" id="aID33" href="http://www.chnu.edu.cn/Category_33/Index.aspx">教学机构</a></h4>
+                <ul class="ul1" id="ulID33" style="display: none;">
+                    <li class="li2 first2" id="liID119">
+                        <h4 class="h2" id="hID119"><a class="a2" id="aID119" href="http://www.chnu.edu.cn/Category_119/Index.aspx">文学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID120">
+                        <h4 class="h2" id="hID120"><a class="a2" id="aID120" href="http://www.chnu.edu.cn/Category_120/Index.aspx">数学科学学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID121">
+                        <h4 class="h2" id="hID121"><a class="a2" id="aID121" href="http://www.chnu.edu.cn/Category_121/Index.aspx">物理与电子信息学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID122">
+                        <h4 class="h2" id="hID122"><a class="a2" id="aID122" href="http://www.chnu.edu.cn/Category_122/Index.aspx">化学与材料科学学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID6422">
+                        <h4 class="h2" id="hID6422"><a class="a2" id="aID6422" href="http://www.chnu.edu.cn/Category_6422/Index.aspx">外国语学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID124">
+                        <h4 class="h2" id="hID124"><a class="a2" id="aID124" href="http://www.chnu.edu.cn/Category_124/Index.aspx">美术学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID125">
+                        <h4 class="h2" id="hID125"><a class="a2" id="aID125" href="http://www.chnu.edu.cn/Category_125/Index.aspx">法学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID126">
+                        <h4 class="h2" id="hID126"><a class="a2" id="aID126" href="http://www.chnu.edu.cn/Category_126/Index.aspx">体育学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID2056">
+                        <h4 class="h2" id="hID2056"><a class="a2" id="aID2056" href="http://www.chnu.edu.cn/Category_2056/Index.aspx">历史文化旅游学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID6353">
+                        <h4 class="h2" id="hID6353"><a class="a2" id="aID6353" href="http://www.chnu.edu.cn/Category_6304/Index.aspx">生命科学学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID139">
+                        <h4 class="h2" id="hID139"><a class="a2" id="aID139" href="http://www.chnu.edu.cn/Category_139/Index.aspx">音乐学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID6614">
+                        <h4 class="h2" id="hID6614"><a class="a2" id="aID6614" href="http://www.chnu.edu.cn/Category_7211/Index.aspx">教育学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID141">
+                        <h4 class="h2" id="hID141"><a class="a2" id="aID141" href="http://www.chnu.edu.cn/Category_141/Index.aspx">计算机科学与技术学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID143">
+                        <h4 class="h2" id="hID143"><a class="a2" id="aID143" href="http://www.chnu.edu.cn/Category_143/Index.aspx">经济与管理学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID6979">
+                        <h4 class="h2" id="hID6979"><a class="a2" id="aID6979" href="http://www.chnu.edu.cn/Category_6929/Index.aspx">建筑学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID144">
+                        <h4 class="h2" id="hID144"><a class="a2" id="aID144" href="http://www.chnu.edu.cn/Category_144/Index.aspx">马克思主义学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID6820">
+                        <h4 class="h2" id="hID6820"><a class="a2" id="aID6820" href="http://www.chnu.edu.cn/Category_6820/Index.aspx">创新创业教育学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID6819">
+                        <h4 class="h2" id="hID6819"><a class="a2" id="aID6819" href="http://www.chnu.edu.cn/Category_6819/Index.aspx">足球学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID167">
+                        <h4 class="h2" id="hID167"><a class="a2" id="aID167" href="http://www.chnu.edu.cn/Category_167/Index.aspx">继续教育学院</a></h4>
+                    </li>
+                    <li class="li2" id="liID2184">
+                        <h4 class="h2" id="hID2184"><a class="a2" id="aID2184" href="http://www.chnu.edu.cn/Category_2184/Index.aspx">附属实验中学</a></h4>
+                    </li>
+                    <li class="li2 last2" id="liID2219">
+                        <h4 class="h2" id="hID2219"><a class="a2" id="aID2219" href="http://www.chnu.edu.cn/Category_2219/Index.aspx">附小</a></h4>
+                    </li>
+                </ul>
+            </li>
+            <li class="li1 hasUl1" id="liID93">
+                <h4 class="h1" id="hID93"><a class="a1" id="aID93" href="http://www.chnu.edu.cn/Category_93/Index.aspx">管理机构</a></h4>
+                <ul class="ul1" id="ulID93" style="display: none;">
+                    <li class="li2 first2" id="liID129">
+                        <h4 class="h2" id="hID129"><a class="a2" id="aID129" href="http://www.chnu.edu.cn/Category_129/Index.aspx">党政部门</a></h4>
+                    </li>
+                    <li class="li2 last2" id="liID131">
+                        <h4 class="h2" id="hID131"><a class="a2" id="aID131" href="http://www.chnu.edu.cn/Category_131/Index.aspx">直属部门</a></h4>
+                    </li>
+                </ul>
+            </li>
+            <li class="li1 hasUl1" id="liID94">
+                <h4 class="h1" id="hID94"><a class="a1" id="aID94" href="http://www.chnu.edu.cn/Category_94/Index.aspx">学术机构</a></h4>
+                <ul class="ul1" id="ulID94" style="display: none;">
+                    <li class="li2 first2" id="liID173">
+                        <h4 class="h2" id="hID173"><a class="a2" id="aID173" href="http://www.chnu.edu.cn/Category_173/Index.aspx">安徽文献整理与研究中心</a></h4>
+                    </li>
+                    <li class="li2" id="liID174">
+                        <h4 class="h2" id="hID174"><a class="a2" id="aID174" href="http://www.chnu.edu.cn/Category_174/Index.aspx">皖北经济与社会发展研究中心</a></h4>
+                    </li>
+                    <li class="li2" id="liID6001">
+                        <h4 class="h2" id="hID6001"><a class="a2" id="aID6001" href="http://www.chnu.edu.cn/Category_6001/Index.aspx">高等教育研究中心</a></h4>
+                    </li>
+                    <li class="li2" id="liID957">
+                        <h4 class="h2" id="hID957"><a class="a2" id="aID957" href="http://www.chnu.edu.cn/Category_957/Index.aspx">绿色化学与有机合成研究室</a></h4>
+                    </li>
+                    <li class="li2" id="liID3194">
+                        <h4 class="h2" id="hID3194"><a class="a2" id="aID3194" href="http://www.chnu.edu.cn/Category_3194/Index.aspx">安徽省高校管理大数据研究中心</a></h4>
+                    </li>
+                    <li class="li2" id="liID3235">
+                        <h4 class="h2" id="hID3235"><a class="a2" id="aID3235" href="http://www.chnu.edu.cn/Category_3235/Index.aspx">安徽优秀传统文化研究中心</a></h4>
+                    </li>
+                    <li class="li2" id="liID3218">
+                        <h4 class="h2" id="hID3218"><a class="a2" id="aID3218" href="http://www.chnu.edu.cn/Category_3218/Index.aspx">安徽省先进功能复合材料协同创新中心</a></h4>
+                    </li>
+                    <li class="li2" id="liID5963">
+                        <h4 class="h2" id="hID5963"><a class="a2" id="aID5963" href="http://www.chnu.edu.cn/Category_5963/Index.aspx">文学研究所</a></h4>
+                    </li>
+                    <li class="li2" id="liID5984">
+                        <h4 class="h2" id="hID5984"><a class="a2" id="aID5984" href="http://www.chnu.edu.cn/Category_5984/Index.aspx">水彩画艺术创作与研究中心</a></h4>
+                    </li>
+                    <li class="li2" id="liID6164">
+                        <h4 class="h2" id="hID6164"><a class="a2" id="aID6164" href="http://www.chnu.edu.cn/Category_6164/Index.aspx">清洁能源及绿色循环重点实验室</a></h4>
+                    </li>
+                    <li class="li2" id="liID6565">
+                        <h4 class="h2" id="hID6565"><a class="a2" id="aID6565" href="http://www.chnu.edu.cn/Category_6565/Index.aspx">政治经济学研究中心</a></h4>
+                    </li>
+                    <li class="li2" id="liID6597">
+                        <h4 class="h2" id="hID6597"><a class="a2" id="aID6597" href="http://www.chnu.edu.cn/Category_6597/Index.aspx">学校体育与校园足球研究中心</a></h4>
+                    </li>
+                    <li class="li2" id="liID6655">
+                        <h4 class="h2" id="hID6655"><a class="a2" id="aID6655" href="http://www.chnu.edu.cn/Category_6655/Index.aspx">新闻与传播研究所</a></h4>
+                    </li>
+                    <li class="li2" id="liID7096">
+                        <h4 class="h2" id="hID7096"><a class="a2" id="aID7096" href="http://www.chnu.edu.cn/Category_7052/Index.aspx">史学理论与史学史研究中心</a></h4>
+                    </li>
+                    <li class="li2 last2" id="liID7442">
+                        <h4 class="h2" id="hID7442"><a class="a2" id="aID7442" href="http://www.chnu.edu.cn/Category_7421/Index.aspx">大运河历史与文化研究中心</a></h4>
+                    </li>
+                </ul>
+            </li>
+            <li class="li1 hasUl1" id="liID95">
+                <h4 class="h1" id="hID95"><a class="a1" id="aID95" href="http://www.chnu.edu.cn/Category_95/Index.aspx">招生就业</a></h4>
+                <ul class="ul1" id="ulID95" style="display: none;">
+                    <li class="li2 first2" id="liID176">
+                        <h4 class="h2" id="hID176"><a class="a2" id="aID176" href="http://www.chnu.edu.cn/Category_176/Index.aspx">本科生招生</a></h4>
+                    </li>
+                    <li class="li2" id="liID2642">
+                        <h4 class="h2" id="hID2642"><a class="a2" id="aID2642" href="http://www.chnu.edu.cn/Category_2642/Index.aspx">研究生招生</a></h4>
+                    </li>
+                    <li class="li2" id="liID178">
+                        <h4 class="h2" id="hID178"><a class="a2" id="aID178" href="http://www.chnu.edu.cn/Category_178/Index.aspx">继续教育招生</a></h4>
+                    </li>
+                    <li class="li2 last2" id="liID3148">
+                        <h4 class="h2" id="hID3148"><a class="a2" id="aID3148" href="http://www.chnu.edu.cn/Category_3148/Index.aspx">学生就业</a></h4>
+                    </li>
+                </ul>
+            </li>
+            <li class="li1 hasUl1" id="liID96">
+                <h4 class="h1" id="hID96"><a class="a1" id="aID96" href="http://www.chnu.edu.cn/Category_96/Index.aspx">学生工作</a></h4>
+                <ul class="ul1" id="ulID96" style="display: none;">
+                    <li class="li2 first2" id="liID99">
+                        <h4 class="h2" id="hID99"><a class="a2" id="aID99" href="http://www.chnu.edu.cn/Category_99/Index.aspx">共青团工作</a></h4>
+                    </li>
+                    <li class="li2" id="liID6853">
+                        <h4 class="h2" id="hID6853"><a class="a2" id="aID6853" href="http://www.chnu.edu.cn/Category_6853/Index.aspx">学生工作处</a></h4>
+                    </li>
+                    <li class="li2" id="liID101">
+                        <h4 class="h2" id="hID101"><a class="a2" id="aID101" href="http://www.chnu.edu.cn/Category_101/Index.aspx">学生组织</a></h4>
+                    </li>
+                    <li class="li2 last2" id="liID5517">
+                        <h4 class="h2" id="hID5517"><a class="a2" id="aID5517" href="http://www.chnu.edu.cn/Category_5517/Index.aspx">学生社团</a></h4>
+                    </li>
+                </ul>
+            </li>
+            <li class="li1 hasUl1" id="liID98">
+                <h4 class="h1" id="hID98"><a class="a1" id="aID98" href="http://www.chnu.edu.cn/Category_98/Index.aspx">信息公开</a></h4>
+                <ul class="ul1" id="ulID98" style="display: none;">
+                    <li class="li2 first2" id="liID919">
+                        <h4 class="h2" id="hID919"><a class="a2" id="aID919" href="http://www.chnu.edu.cn/Category_919/Index.aspx">政策法规</a></h4>
+                    </li>
+                    <li class="li2" id="liID920">
+                        <h4 class="h2" id="hID920"><a class="a2" id="aID920" href="http://www.chnu.edu.cn/Category_920/Index.aspx">领导机构</a></h4>
+                    </li>
+                    <li class="li2" id="liID921">
+                        <h4 class="h2" id="hID921"><a class="a2" id="aID921" href="http://www.chnu.edu.cn/Category_921/Index.aspx">年度报告</a></h4>
+                    </li>
+                    <li class="li2" id="liID922">
+                        <h4 class="h2" id="hID922"><a class="a2" id="aID922" href="http://www.chnu.edu.cn/Category_922/Index.aspx">学校文件</a></h4>
+                    </li>
+                    <li class="li2" id="liID923">
+                        <h4 class="h2" id="hID923"><a class="a2" id="aID923" href="http://www.chnu.edu.cn/Category_923/Index.aspx">领导接待</a></h4>
+                    </li>
+                    <li class="li2" id="liID5774">
+                        <h4 class="h2" id="hID5774"><a class="a2" id="aID5774" href="http://www.chnu.edu.cn/Category_5774/Index.aspx">书记信箱</a></h4>
+                    </li>
+                    <li class="li2 last2" id="liID5775">
+                        <h4 class="h2" id="hID5775"><a class="a2" id="aID5775" href="http://www.chnu.edu.cn/Category_5775/Index.aspx">校长信箱</a></h4>
+                    </li>
+                </ul>
+            </li>
+            <li class="li1 hasUl1" id="liID97">
+                <h4 class="h1" id="hID97"><a class="a1" id="aID97" href="http://www.chnu.edu.cn/Category_97/Index.aspx">公共服务</a></h4>
+                <ul class="ul1" id="ulID97" style="display: none;">
+                    <li class="li2 first2" id="liID104">
+                        <h4 class="h2" id="hID104"><a class="a2" id="aID104" href="http://www.chnu.edu.cn/Category_104/Index.aspx">信息服务</a></h4>
+                    </li>
+                    <li class="li2" id="liID105">
+                        <h4 class="h2" id="hID105"><a class="a2" id="aID105" href="http://www.chnu.edu.cn/Category_105/Index.aspx">信息查询</a></h4>
+                    </li>
+                    <li class="li2" id="liID106">
+                        <h4 class="h2" id="hID106"><a class="a2" id="aID106" href="http://www.chnu.edu.cn/Category_106/Index.aspx">常用连接</a></h4>
+                    </li>
+                    <li class="li2" id="liID107">
+                        <h4 class="h2" id="hID107"><a class="a2" id="aID107" href="http://www.chnu.edu.cn/Category_107/Index.aspx">教学服务</a></h4>
+                    </li>
+                    <li class="li2 last2" id="liID108">
+                        <h4 class="h2" id="hID108"><a class="a2" id="aID108" href="http://www.chnu.edu.cn/Category_108/Index.aspx">科研服务</a></h4>
+                    </li>
+                </ul>
+            </li>
+            <li class="li1 last1" id="liID6723">
+                <h4 class="h1" id="hID6723"><a class="a1" id="aID6723" href="http://210.45.128.83:8080/">信息门户</a></h4>
+            </li>
+        </ul>
+        <script type="text/javascript">
+            jQuery(function($) {
+                var navST;
+                var name = 'mainNavType';
+                var t = 0;
+                var type = '2';
+                var removeOn = 'false';
+                var effect = 'fade';
+                var appendItem = '#';
+                var li = "#" + name + " li";
+
+                if (!$("#" + name + " .li1").hasClass("on1")) {
+                    $("#" + name + " .li1").first().addClass("on1");
+                } //默认第一个加.on1类
+                if (type == '1') {
+                    li = "#" + name + " .li1";
+                }
+                if (appendItem != '#') { //插入内容
+                    var appendHtml = $(appendItem).html();
+                    $(li).first().append(appendHtml);
+                    $(appendItem).remove();
+                }
+
+                if (type == '3') {
+                    $("#" + name + " .on1").find("ul").first().show();
+                }
+
+                $(li).hover(function() {
+                    var curItem = $(this);
+                    var onNum = (curItem.attr("class").split(" "))[0].replace("li", "")
+                    navST = setTimeout(function() { //延时触发
+                        $(li).removeClass("on" + onNum);
+                        curItem.addClass("on" + onNum);
+                        if ($("ul:first", curItem).css("display") != "block") {
+                            $(li + " .ul" + onNum).hide();
+                            if (effect == 'fade') $("ul:first", curItem).fadeIn(t);
+                            else $("ul:first", curItem).slideDown(t);
+                        };
+                        navST = null;
+                    }, t);
+                }, function() {
+                    if (navST != null) clearTimeout(navST);
+                    if (type == '1' || type == '2') {
+                        if (effect == 'fade') $(this).find("ul").first().fadeOut(t);
+                        else $(this).find("ul").first().slideUp(t);
+                    }
+                    if (removeOn == 'true') {
+                        $(this).removeClass("on1");
+                    }
+                }, t); //end hover
+            });
+        </script>
+
+    </div>
+
+    <div class="clear"></div>
+    <!--导航 end-->
+    <!--大banner s-->
+
+    <div id="jdt" class="banner">
+        <div class="adbanner">
+            <div class="picBtnLeft">
+                <div class="hd">
+                    <ul>
+                        <li class="li1">
+                            <div class="pic">
+                                <a href="http://www.chnu.edu.cn/Category_7397/Index.aspx" target="_blank"><img src="files/202104061131052414_20_20.jpg"></a>
+                            </div>
+                            <div class="con">
+                                <div class="bg"></div>
+                                <div class="title">
+                                    <a title="ad5" href="http://www.chnu.edu.cn/Category_7397/Index.aspx" target="_blank"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li2">
+                            <div class="pic">
+                                <a href="http://society.people.com.cn/GB/369130/431577/index.html" target="_blank"><img src="files/202009111500002802_20_20.jpg"></a>
+                            </div>
+                            <div class="con">
+                                <div class="bg"></div>
+                                <div class="title">
+                                    <a title="ad6" href="http://society.people.com.cn/GB/369130/431577/index.html" target="_blank"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li3 on">
+                            <div class="pic">
+                                <a href="" target="_blank"><img src="files/202009211502356024_20_20.png"></a>
+                            </div>
+                            <div class="con">
+                                <div class="bg"></div>
+                                <div class="title">
+                                    <a title="ad1" href="" target="_blank"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li4">
+                            <div class="pic">
+                                <a href="" target="_blank"><img src="files/202103231523485481_20_20.jpg"></a>
+                            </div>
+                            <div class="con">
+                                <div class="bg"></div>
+                                <div class="title">
+                                    <a title="ad2" href="" target="_blank"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li5">
+                            <div class="pic">
+                                <a href="" target="_blank"><img src="files/202103231524418479_20_20.jpg"></a>
+                            </div>
+                            <div class="con">
+                                <div class="bg"></div>
+                                <div class="title">
+                                    <a title="ad4" href="" target="_blank"></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bd">
+                    <div class="tempWrap" style="overflow:hidden; position:relative; width:1200px">
+                        <ul style="width: 6000px; left: -2400px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
+                            <li class="li1" style="float: left; width: 1200px;">
+                                <div class="pic">
+                                    <a href="http://www.chnu.edu.cn/Category_7397/Index.aspx" target="_blank"><img src="files/202104061131052414_1200_334.jpg"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="bg"></div>
+                                    <div class="title">
+                                        <a title="ad5" href="http://www.chnu.edu.cn/Category_7397/Index.aspx" target="_blank"></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="li2" style="float: left; width: 1200px;">
+                                <div class="pic">
+                                    <a href="http://society.people.com.cn/GB/369130/431577/index.html" target="_blank"><img src="files/202009111500002802_1200_334.jpg"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="bg"></div>
+                                    <div class="title">
+                                        <a title="ad6" href="http://society.people.com.cn/GB/369130/431577/index.html" target="_blank"></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="li3" style="float: left; width: 1200px;">
+                                <div class="pic">
+                                    <a href="" target="_blank"><img src="files/202009211502356024_1200_334.png"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="bg"></div>
+                                    <div class="title">
+                                        <a title="ad1" href="" target="_blank"></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="li4" style="float: left; width: 1200px;">
+                                <div class="pic">
+                                    <a href="" target="_blank"><img src="files/202103231523485481_1200_334.jpg"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="bg"></div>
+                                    <div class="title">
+                                        <a title="ad2" href="" target="_blank"></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="li5" style="float: left; width: 1200px;">
+                                <div class="pic">
+                                    <a href="" target="_blank"><img src="files/202103231524418479_1200_334.jpg"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="bg"></div>
+                                    <div class="title">
+                                        <a title="ad4" href="" target="_blank"></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <script type="text/javascript">
+                jQuery(".picBtnLeft").slide({
+                    titCell: ".hd li",
+                    mainCell: ".bd ul",
+                    effect: "left",
+                    interTime: "5000",
+                    autoPlay: true
+                });
+            </script>
+
+        </div>
+    </div>
+
+    <!--大banner end-->
+    <div class="clear blank"></div>
+
+    <!--网站主体部分 s-->
+    <div class="content">
+
+        <!--右边部分开始 s-->
+        <div class="rightsideBar fr">
+            <!--通知公告 s-->
+            <div class="sideBox" id="Notice">
+                <div class="hd">
+                    <ul>
+                        <li class="on"><a href="http://www.chnu.edu.cn/Category_83/Index.aspx">通知公告</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Category_87/Index.aspx">周工作安排</a></li>
+                        <!--<li><a href="/Category_7258/Index.aspx" target="_blank">招标采购</a></li>-->
+                        <!--<li><a href="#">招标采购</a></li>-->
+                    </ul>
+                </div>
+                <div class="bd">
+                    <ul>
+
+                        <li>
+                            <a href="http://www.chnu.edu.cn/Item/158681.aspx" target="_blank" title="标题：关于组织收看安徽省高校师生庆祝建党100周年主题文艺展演网络直播的通知
+点击数：260
+发表时间：21年06月22日">
+                                <font style="color:#d2350e;font-weight:bold;font-style:normal;;">关于组织收看安徽省高校师生庆祝建党100周…</font>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.chnu.edu.cn/Item/155965.aspx" target="_blank" title="标题：淮北师范大学2021年度人才招聘公告
+点击数：4728
+发表时间：21年05月02日">
+                                <font style="color:#cb0000;font-weight:bold;font-style:normal;;">淮北师范大学2021年度人才招聘公告</font>
+                            </a>
+                        </li>
+                        <li><a href="http://www.chnu.edu.cn/Item/157081.aspx" target="_blank" title="标题：淮北师范大学附属实验中学2021年自主招生简章
+点击数：1561
+发表时间：21年05月24日">淮北师范大学附属实验中学2021年自主招生简章</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/158674.aspx" target="_blank" title="标题：关于公布淮北师范大学2021年招聘专职辅导员和专职心理咨询管理人员招聘考试总评成绩及体检考察对象的通知
+点击数：143
+发表时间：21年06月22日">关于公布淮北师范大学2021年招聘专职辅导员…</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/158631.aspx" target="_blank" title="标题：关于大学生创新创业训练计划项目拟推荐立项、结项及优秀指导教师等评审结果的公示
+点击数：341
+发表时间：21年06月21日">关于大学生创新创业训练计划项目拟推荐立项…</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/158603.aspx" target="_blank" title="标题：第十七周校领导接待日安排
+点击数：133
+发表时间：21年06月21日">第十七周校领导接待日安排</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/158564.aspx" target="_blank" title="标题：关于开展2021年度校级线上线下混合式课程遴选建设工作的通知
+点击数：249
+发表时间：21年06月21日">关于开展2021年度校级线上线下混合式课程遴…</a></li>
+                        <li class="last"><a href="http://www.chnu.edu.cn/Item/158558.aspx" target="_blank" title="标题：淮北师范大学2021年招聘专职辅导员和专职心理咨询管理人员招聘笔试成绩及面试入围人员名单公告
+点击数：281
+发表时间：21年06月21日">淮北师范大学2021年招聘专职辅导员和专职心…</a></li>
+                    </ul>
+                    <ul style="display: none;">
+
+                        <li><a href="http://www.chnu.edu.cn/Item/158599.aspx" target="_blank" title="标题：第十七周主要工作及会议安排(2021.6.21-6.25)
+点击数：580
+发表时间：21年06月21日">第十七周主要工作及会议安排(2021.6.21-6.25)</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/158366.aspx" target="_blank" title="标题：第十六周主要工作及会议安排(2021.6.15-6.18)
+点击数：1120
+发表时间：21年06月15日">第十六周主要工作及会议安排(2021.6.15-6.18)</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/157864.aspx" target="_blank" title="标题：第十五周主要工作及会议安排(2021.6.7-6.11)
+点击数：1178
+发表时间：21年06月07日">第十五周主要工作及会议安排(2021.6.7-6.11)</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/157499.aspx" target="_blank" title="标题：第十四周主要工作及会议安排(2021.5.31-6.4)
+点击数：1188
+发表时间：21年05月31日">第十四周主要工作及会议安排(2021.5.31-6.4)</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/157092.aspx" target="_blank" title="标题：第十三周主要工作及会议安排(2021.5.24-5.28)
+点击数：1202
+发表时间：21年05月24日">第十三周主要工作及会议安排(2021.5.24-5.28)</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/156692.aspx" target="_blank" title="标题：第十二周主要工作及会议安排(2021.5.17-5.21)
+点击数：1214
+发表时间：21年05月17日">第十二周主要工作及会议安排(2021.5.17-5.21)</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/156294.aspx" target="_blank" title="标题：第十一周主要工作及会议安排(2021.5.10-5.14)
+点击数：1212
+发表时间：21年05月10日">第十一周主要工作及会议安排(2021.5.10-5.14)</a></li>
+                        <li class="last"><a href="http://www.chnu.edu.cn/Item/156031.aspx" target="_blank" title="标题：第十周主要工作及会议安排(2021.5.6-5.8)
+点击数：940
+发表时间：21年05月06日">第十周主要工作及会议安排(2021.5.6-5.8)</a></li>
+
+                    </ul>
+                    <ul style="display: none;">
+
+                        <li><a href="http://www.chnu.edu.cn/Item/147992.aspx" target="_blank" title="标题：淮北师范大学滨湖校区二期学生浴室一卡通计量系统采购中标（成交）结果公告
+点击数：2040
+发表时间：20年09月27日">淮北师范大学滨湖校区二期学生浴室一卡通计…</a></li>
+                        <li class="last"><a href="http://www.chnu.edu.cn/Item/147979.aspx" target="_blank" title="标题：淮北师范大学米面油等采购谈判项目（三次）结果公告
+点击数：1984
+发表时间：20年09月27日">淮北师范大学米面油等采购谈判项目（三次）…</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <script type="text/javascript">
+                jQuery("#Notice").slide({
+                    titCell: ".hd li",
+                    trigger: "mouseover",
+                    mainCell: ".bd",
+                    effect: "fade",
+                    vis: 1
+                });
+            </script>
+
+            <!--通知公告 end-->
+            <div class="clear blank"></div>
+
+            <!--图标链接 s-->
+            <div id="Iconfour" class="m-Box">
+                <ul>
+                    <li><a class="xyl" href="http://www.chnu.edu.cn/Category_90/Index.aspx">校友会</a></li>
+                    <li><a class="ldxx" href="http://www.chnu.edu.cn/Category_98/Index.aspx">信息公开</a></li>
+                    <li><a class="zxzp" href="http://www.chnu.edu.cn/Category_92/Index.aspx">在线招聘</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <!--图标链接 end-->
+            <div class="clear blank"></div>
+
+            <!--链接入口 s-->
+            <div class="sideBox" id="ljrk">
+                <div class="bd">
+                    <ul>
+
+                        <li><a href="http://www.chnu.edu.cn/Item/101691.aspx" target="_blank" title="标题：信息学院
+点击数：164759
+发表时间：16年12月16日">信息学院</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/31412.aspx" target="_blank" title="标题：缴费平台
+点击数：336089
+发表时间：16年06月15日">缴费平台</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/31411.aspx" target="_blank" title="标题：财务信息平台
+点击数：198285
+发表时间：16年06月15日">财务信息平台</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/31409.aspx" target="_blank" title="标题：皖事通
+点击数：66750
+发表时间：16年06月15日">皖事通</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/31408.aspx" target="_blank" title="标题：新生学籍查询
+点击数：126312
+发表时间：16年06月15日">新生学籍查询</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/31407.aspx" target="_blank" title="标题：网络教学综合平台
+点击数：75373
+发表时间：16年06月15日">网络教学综合平台</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/31406.aspx" target="_blank" title="标题：信息公开
+点击数：100740
+发表时间：16年06月15日">信息公开</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/31405.aspx" target="_blank" title="标题：OA系统
+点击数：959004
+发表时间：16年06月15日">OA系统</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/31404.aspx" target="_blank" title="标题：校 历
+点击数：103220
+发表时间：16年06月15日">校 历</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/31403.aspx" target="_blank" title="标题：精品课程
+点击数：30659
+发表时间：16年06月15日">精品课程</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/31402.aspx" target="_blank" title="标题：教务管理
+点击数：861325
+发表时间：16年06月15日">教务管理</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/31401.aspx" target="_blank" title="标题：网络视频公选课
+点击数：169825
+发表时间：16年06月15日">网络视频公选课</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/31400.aspx" target="_blank" title="标题：校园邮箱
+点击数：125082
+发表时间：16年06月15日">校园邮箱</a></li>
+                        <li><a href="http://www.chnu.edu.cn/Item/31399.aspx" target="_blank" title="标题：校园卡
+点击数：121091
+发表时间：16年06月15日">校园卡</a></li>
+                        <li class="last"><a href="http://www.chnu.edu.cn/Item/31398.aspx" target="_blank" title="标题：图书馆
+点击数：221067
+发表时间：16年06月15日">图书馆</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <!--链接入口 end-->
+
+
+        </div>
+        <!--右边部分开始 end-->
+
+        <!--左边主体部分 s-->
+        <div class="m-bd" id="leftgroup_news">
+            <!--焦点图部分 s-->
+            <div id="focus">
+                <div class="slideBox-news" id="focusNews">
+
+                    <ul class="slideNav">
+                        <li class="on"><a class=" a1">1</a></li>
+                        <li class=""><a class=" a2">2</a></li>
+                    </ul>
+                    <ul class="slideCon">
+                        <li style="display: list-item;">
+                            <div class="pe_u_thumb">
+                                <a href="http://www.chnu.edu.cn/Item/158668.aspx" target="_blank"><img src="files/-130_308_242.jpg" alt="【党史学习教育】戏剧塑形，思政铸魂：给思政课插上“活”起来的翅膀"></a>
+                            </div>
+                            <p class="pe_u_thumb_title"><a href="http://www.chnu.edu.cn/Item/158668.aspx" target="_blank">我校车金成团队在挑战杯课外学术竞赛中获得佳绩</a></p>
+                        </li>
+                        <li style="display: none;">
+                            <div class="pe_u_thumb">
+                                <a href="http://www.chnu.edu.cn/Item/158576.aspx" target="_blank"><img src="files/124_308_242.jpg" alt="我校学子在2021全国大学生英语竞赛中开创新佳绩"></a>
+                            </div>
+                            <p class="pe_u_thumb_title"><a href="http://www.chnu.edu.cn/Item/158576.aspx" target="_blank">教育学院车金成一行赴安庆师范大学进行学术交流</a></p>
+                        </li>
+                    </ul>
+
+                    <div class="clear"></div>
+                </div>
+                <script type="text/javascript">
+                    jQuery("#focus").slide({
+                        titCell: ".slideNav li",
+                        mainCell: ".slideCon",
+                        effect: "fade",
+                        autoPlay: true
+                    });
+                </script>
+
+                <div class="clear blank"></div>
+            </div>
+            <!--焦点图部分 end-->
+            <!--新闻部分 s-->
+            <div id="newsGroup" class="newsBox fr">
+                <div class="hd">
+                    <ul>
+                        <li class="li01 on">
+                            <h4><a href="http://www.chnu.edu.cn/Category_84/Index.aspx">学校新闻</a></h4>
+                        </li>
+                        <li class="li02">
+                            <h4><a href="http://www.chnu.edu.cn/Category_88/Index.aspx">媒体关注</a></h4>
+                        </li>
+                        <li class="li03">
+                            <h4><a href="http://www.chnu.edu.cn/Category_89/Index.aspx">教育视点</a></h4>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bd">
+                    <ul>
+
+                        <li><span class="date">06-22</span><a href="http://www.chnu.edu.cn/Item/158701.aspx" target="_blank" title="标题：【党史学习教育】学校开展“同上一堂‘党史’大课”主题教育活动
+点击数：3
+发表时间：21年06月22日">【党史学习教育】学校开展“同上一堂‘党史’大课”主题…</a></li>
+                        <li><span class="date">06-22</span><a href="http://www.chnu.edu.cn/Item/158668.aspx" target="_blank" title="标题：【党史学习教育】戏剧塑形，思政铸魂：给思政课插上“活”起来的翅膀
+点击数：141
+发表时间：21年06月22日">【党史学习教育】戏剧塑形，思政铸魂：给思政课插上“活…</a></li>
+                        <li><span class="date">06-21</span><a href="http://www.chnu.edu.cn/Item/158576.aspx" target="_blank" title="标题：我校学子在2021全国大学生英语竞赛中开创新佳绩
+点击数：450
+发表时间：21年06月21日">我校学子在2021全国大学生英语竞赛中开创新佳绩</a></li>
+                        <li><span class="date">06-19</span><a href="http://www.chnu.edu.cn/Item/158530.aspx" target="_blank" title="标题：【党史学习教育】学校召开党委理论学习中心组专题研讨会议
+点击数：166
+发表时间：21年06月19日">【党史学习教育】学校召开党委理论学习中心组专题研讨会议</a></li>
+                        <li><span class="date">06-18</span><a href="http://www.chnu.edu.cn/Item/158475.aspx" target="_blank" title="标题：校党委书记陈士夫到财务处党支部讲党史专题党课
+点击数：309
+发表时间：21年06月18日">校党委书记陈士夫到财务处党支部讲党史专题党课</a></li>
+                        <li><span class="date">06-18</span><a href="http://www.chnu.edu.cn/Item/158474.aspx" target="_blank" title="标题：校长姚佐文到生命科学学院开展党史学习教育督导
+点击数：256
+发表时间：21年06月18日">校长姚佐文到生命科学学院开展党史学习教育督导</a></li>
+                        <li><span class="date">06-18</span><a href="http://www.chnu.edu.cn/Item/158479.aspx" target="_blank" title="标题：淮北师范大学第八届“青春心向党，筑梦新时代”微电影（微视频）大赛颁奖典礼圆满落幕
+点击数：307
+发表时间：21年06月18日">淮北师范大学第八届“青春心向党，筑梦新时代”微电影（…</a></li>
+                        <li class="last"><span class="date">06-18</span><a href="http://www.chnu.edu.cn/Item/158473.aspx" target="_blank" title="标题：我校扶贫干部张国安同志荣获“安徽省脱贫攻坚先进个人”称号
+点击数：376
+发表时间：21年06月18日">我校扶贫干部张国安同志荣获“安徽省脱贫攻坚先进个人”…</a></li>
+
+                    </ul>
+                    <ul style="display: none;">
+
+                        <li><span class="date">06-21</span><a href="http://www.chnu.edu.cn/Item/158629.aspx" target="_blank" title="标题：【安徽教育网】淮北师范大学学子在2021全国大学生英语竞赛中开创佳绩
+点击数：11
+发表时间：21年06月21日">【安徽教育网】淮北师范大学学子在2021全国大学生英语竞…</a></li>
+                        <li><span class="date">06-21</span><a href="http://www.chnu.edu.cn/Item/158626.aspx" target="_blank" title="标题：【安徽教育网】淮北师范大学一教工荣获“安徽省脱贫攻坚先进个人”称号
+点击数：9
+发表时间：21年06月21日">【安徽教育网】淮北师范大学一教工荣获“安徽省脱贫攻坚…</a></li>
+                        <li><span class="date">06-21</span><a href="http://www.chnu.edu.cn/Item/158623.aspx" target="_blank" title="标题：【安徽教育网】淮北师范大学第八届“青春心向党，筑梦新时代”微电影（微视频）大赛颁奖典礼圆满落幕
+点击数：8
+发表时间：21年06月21日">【安徽教育网】淮北师范大学第八届“青春心向党，筑梦新…</a></li>
+                        <li><span class="date">06-11</span><a href="http://www.chnu.edu.cn/Item/158286.aspx" target="_blank" title="标题：【安徽教育网】首页：淮北师范大学“青年讲师团”正式成立
+点击数：58
+发表时间：21年06月11日">【安徽教育网】首页：淮北师范大学“青年讲师团”正式成立</a></li>
+                        <li><span class="date">06-11</span><a href="http://www.chnu.edu.cn/Item/158280.aspx" target="_blank" title="标题：《淮北日报》、淮北新闻网首页报道张弛为我校捐赠全套《新华月报》珍贵党史资料
+点击数：47
+发表时间：21年06月11日">《淮北日报》、淮北新闻网首页报道张弛为我校捐赠全套《…</a></li>
+                        <li><span class="date">06-09</span><a href="http://www.chnu.edu.cn/Item/158038.aspx" target="_blank" title="标题：【安徽教育网】淮北师范大学党委理论学习中心组开展集中学习研讨
+点击数：46
+发表时间：21年06月09日">【安徽教育网】淮北师范大学党委理论学习中心组开展集中…</a></li>
+                        <li><span class="date">06-09</span><a href="http://www.chnu.edu.cn/Item/158037.aspx" target="_blank" title="标题：【安徽教育网】与党同心 薪火相传 淮北师范大学薪火支教社举办主题团日活动 推动党史学习教育入脑入心
+点击数：52
+发表时间：21年06月09日">【安徽教育网】与党同心 薪火相传 淮北师范大学薪火支教…</a></li>
+                        <li class="last"><span class="date">06-09</span><a href="http://www.chnu.edu.cn/Item/158021.aspx" target="_blank" title="标题：《淮北日报》报道我校学子举办献礼建党100周年主题书画展
+点击数：45
+发表时间：21年06月09日">《淮北日报》报道我校学子举办献礼建党100周年主题书画展</a></li>
+
+                    </ul>
+                    <ul style="display: none;">
+
+                        <li><span class="date">06-01</span><a href="http://www.chnu.edu.cn/Item/157587.aspx" target="_blank" title="标题：教育部等四部门关于实现巩固拓展教育脱贫攻坚成果同乡村振兴有效衔接的意见
+点击数：74
+发表时间：21年06月01日">教育部等四部门关于实现巩固拓展教育脱贫攻坚成果同乡村…</a></li>
+                        <li><span class="date">06-01</span><a href="http://www.chnu.edu.cn/Item/157586.aspx" target="_blank" title="标题：教育部办公厅关于学习宣传贯彻实施新修订的教育法的通知
+点击数：57
+发表时间：21年06月01日">教育部办公厅关于学习宣传贯彻实施新修订的教育法的通知</a></li>
+                        <li><span class="date">05-12</span><a href="http://www.chnu.edu.cn/Item/156449.aspx" target="_blank" title="标题：教育部办公厅关于开展第二批国家级一流本科课程认定工作的通知
+点击数：224
+发表时间：21年05月12日">教育部办公厅关于开展第二批国家级一流本科课程认定工作…</a></li>
+                        <li><span class="date">05-12</span><a href="http://www.chnu.edu.cn/Item/156448.aspx" target="_blank" title="标题：教育部关于在教育系统开展师德专题教育的通知
+点击数：140
+发表时间：21年05月12日">教育部关于在教育系统开展师德专题教育的通知</a></li>
+                        <li><span class="date">04-15</span><a href="http://www.chnu.edu.cn/Item/154468.aspx" target="_blank" title="标题：教育部办公厅关于印发《高等学校法治工作测评指标》的通知
+点击数：141
+发表时间：21年04月15日">教育部办公厅关于印发《高等学校法治工作测评指标》的通知</a></li>
+                        <li><span class="date">04-15</span><a href="http://www.chnu.edu.cn/Item/154467.aspx" target="_blank" title="标题：教育部 财政部 国家发展改革委关于印发《“双一流”建设成效评价办法（试行）》的通知
+点击数：203
+发表时间：21年04月15日">教育部 财政部 国家发展改革委关于印发《“双一流”建设…</a></li>
+                        <li><span class="date">03-08</span><a href="http://www.chnu.edu.cn/Item/152492.aspx" target="_blank" title="标题：教育部高等教育司2021年工作要点
+点击数：361
+发表时间：21年03月08日">教育部高等教育司2021年工作要点</a></li>
+                        <li class="last"><span class="date">03-04</span><a href="http://www.chnu.edu.cn/Item/152428.aspx" target="_blank" title="标题：教育部关于印发《普通高等学校本科教育教学审核评估实施方案（2021—2025年）》的通知
+点击数：315
+发表时间：21年03月04日">教育部关于印发《普通高等学校本科教育教学审核评估实施…</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+            <script type="text/javascript">
+                jQuery("#newsGroup").slide({
+                    titCell: ".hd li",
+                    trigger: "mouseover",
+                    mainCell: ".bd",
+                    effect: "fade",
+                    vis: 1
+                });
+            </script>
+            <!--新闻部分 end-->
+            <div class="clear blank"></div>
+
+            <!--学术活动和院部动态 s-->
+            <div id="xsyb" class="layout-1">
+
+                <div class="m-Box fl js-tab" id="xshd">
+                    <div class="hd">
+                        <a href="http://www.chnu.edu.cn/Category_7414/Index.aspx" class="more">更多&gt;&gt;</a>
+                        <ul>
+                            <li class="on"><a href="http://www.chnu.edu.cn/Category_7414/Index.aspx">学术预告</a></li>
+                            <li><a href="http://www.chnu.edu.cn/Category_85/Index.aspx">学术活动</a></li>
+                        </ul>
+                    </div>
+                    <div class="bd">
+                        <ul>
+
+                            <li><a href="http://www.chnu.edu.cn/Item/158439.aspx" target="_blank" title="标题：&quot;基于数据中台的智慧校园建设&quot;等系列讲座【计算机科学与技术学院】
+点击数：142
+发表时间：21年06月17日">"基于数据中台的智慧校园建设"等系列讲座【计算机科…</a></li>
+                            <li><a href="http://www.chnu.edu.cn/Item/158387.aspx" target="_blank" title="标题：创意之道【创新创业教育学院】
+点击数：112
+发表时间：21年06月16日">创意之道【创新创业教育学院】</a></li>
+                            <li><a href="http://www.chnu.edu.cn/Item/158017.aspx" target="_blank" title="标题：“安徽民间舞蹈音乐创作琐谈”等系列讲座【音乐学院】
+点击数：202
+发表时间：21年06月09日">“安徽民间舞蹈音乐创作琐谈”等系列讲座【音乐学院】</a></li>
+                            <li><a href="http://www.chnu.edu.cn/Item/158004.aspx" target="_blank" title="标题：关于拉马努金zeta函数的黎曼－哈代猜想【数学科学学院】
+点击数：271
+发表时间：21年06月08日">关于拉马努金zeta函数的黎曼－哈代猜想【数学科学学…</a></li>
+                            <li><a href="http://www.chnu.edu.cn/Item/157917.aspx" target="_blank" title="标题：音乐与人的心理健康【教育学院】
+点击数：207
+发表时间：21年06月07日">音乐与人的心理健康【教育学院】</a></li>
+                            <li class="last"><a href="http://www.chnu.edu.cn/Item/157916.aspx" target="_blank" title="标题：动态风险决策的行为和脑成像研究【教育学院】
+点击数：120
+发表时间：21年06月07日">动态风险决策的行为和脑成像研究【教育学院】</a></li>
+
+                        </ul>
+                        <ul style="display: none;">
+
+                            <li><a href="http://www.chnu.edu.cn/Item/158483.aspx" target="_blank" title="标题：安徽财经大学盛明泉教授应邀到经济与管理学院作学术报告
+点击数：39
+发表时间：21年06月18日">安徽财经大学盛明泉教授应邀到经济与管理学院作学术…</a></li>
+                            <li><a href="http://www.chnu.edu.cn/Item/158482.aspx" target="_blank" title="标题：安徽财经大学副校长冯德连教授应邀到经济与管理学院作学术报告
+点击数：28
+发表时间：21年06月18日">安徽财经大学副校长冯德连教授应邀到经济与管理学院…</a></li>
+                            <li><a href="http://www.chnu.edu.cn/Item/157754.aspx" target="_blank" title="标题：合肥工业大学胡学钢教授应邀来我校计算机科学与技术学院做报告
+点击数：107
+发表时间：21年06月04日">合肥工业大学胡学钢教授应邀来我校计算机科学与技术…</a></li>
+                            <li><a href="http://www.chnu.edu.cn/Item/157660.aspx" target="_blank" title="标题：中国科学院合肥物质科学研究院盛志高研究员为物电学院师生做学术报告
+点击数：84
+发表时间：21年06月03日">中国科学院合肥物质科学研究院盛志高研究员为物电学…</a></li>
+                            <li><a href="http://www.chnu.edu.cn/Item/157573.aspx" target="_blank" title="标题：安徽财经大学孙欣教授应邀到数学科学学院作报告
+点击数：103
+发表时间：21年06月01日">安徽财经大学孙欣教授应邀到数学科学学院作报告</a></li>
+                            <li class="last"><a href="http://www.chnu.edu.cn/Item/157572.aspx" target="_blank" title="标题：著名音韵学家、华中科技大学黄仁暄教授应邀到文学院讲学
+点击数：98
+发表时间：21年06月01日">著名音韵学家、华中科技大学黄仁暄教授应邀到文学院…</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="m-Box fr" id="ybdt">
+                    <div class="hd">
+                        <a class="more" href="http://www.chnu.edu.cn/Category_86/Index.aspx">更多&gt;&gt;</a>
+                        <h3><a href="http://www.chnu.edu.cn/Category_86/Index.aspx">院部动态</a></h3>
+
+                    </div>
+                    <div class="bd">
+                        <ul>
+
+                            <li><a href="http://www.chnu.edu.cn/Item/158663.aspx" target="_blank" title="标题：【党史学习教育】校工会组织开展“看电影 学党史”活动——庆祝中国共产党成立 100 周年
+点击数：88
+发表时间：21年06月22日">【党史学习教育】校工会组织开展“看电影 学党史”…</a></li>
+                            <li><a href="http://www.chnu.edu.cn/Item/158588.aspx" target="_blank" title="标题：文学院党委举行新党员入党宣誓暨老党员重温入党誓词仪式
+点击数：130
+发表时间：21年06月21日">文学院党委举行新党员入党宣誓暨老党员重温入党誓词…</a></li>
+                            <li><a href="http://www.chnu.edu.cn/Item/158587.aspx" target="_blank" title="标题：音乐学院举办“徽风皖韵话筝程”古筝专场音乐会
+点击数：106
+发表时间：21年06月21日">音乐学院举办“徽风皖韵话筝程”古筝专场音乐会</a></li>
+                            <li><a href="http://www.chnu.edu.cn/Item/158480.aspx" target="_blank" title="标题：【我为群众办实事】外国语学院开展送教下乡活动
+点击数：150
+发表时间：21年06月18日">【我为群众办实事】外国语学院开展送教下乡活动</a></li>
+                            <li><a href="http://www.chnu.edu.cn/Item/158477.aspx" target="_blank" title="标题：马克思主义学院组织学生聆听“英模·大师进思政课堂——爱在天地间”专题讲座
+点击数：85
+发表时间：21年06月18日">马克思主义学院组织学生聆听“英模·大师进思政课堂…</a></li>
+                            <li class="last"><a href="http://www.chnu.edu.cn/Item/158476.aspx" target="_blank" title="标题：【我为群众办实事】用红心点亮民心：化学与材料科学学院开展“红五月，志愿行，进社区，办实事”活动
+点击数：95
+发表时间：21年06月18日">【我为群众办实事】用红心点亮民心：化学与材料科学…</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--学术活动和院部动态 end-->
+            <div class="clear blank"></div>
+
+            <!--专题 s-->
+            <div id="zt" class="layout-1">
+                <div class="bd">
+                    <a class="prev" href="javascript:;"></a>
+                    <a class="next" href="javascript:;"></a>
+                    <div class="tempWrap" style="overflow:hidden; position:relative; width:600px">
+                        <ul style="width: 1650px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -150px;">
+                            <li class="clone" style="float: left; width: 140px;">
+                                <div class="pe_u_thumb">
+                                    <a href="http://www.chnu.edu.cn/Item/31393.aspx" target="_blank"><img src="files/201606151359382805.jpg" alt="国培计划" width="160" height="120" border="0"></a>
+                                </div>
+                            </li>
+
+                            <li style="float: left; width: 140px;">
+                                <div class="pe_u_thumb">
+                                    <a href="http://www.chnu.edu.cn/Item/139343.aspx" target="_blank"><img src="files/201912300944062935.jpg" alt="十九届四中全会专题网" width="160" height="120" border="0"></a>
+                                </div>
+                            </li>
+                            <li style="float: left; width: 140px;">
+                                <div class="pe_u_thumb">
+                                    <a href="http://www.chnu.edu.cn/Item/111683.aspx" target="_blank"><img src="files/201712221006252881.jpg" alt="十九大专题网站" width="160" height="120" border="0"></a>
+                                </div>
+                            </li>
+                            <li style="float: left; width: 140px;">
+                                <div class="pe_u_thumb">
+                                    <a href="http://www.chnu.edu.cn/Item/108723.aspx" target="_blank"><img src="files/201710241419521933.jpg" alt="本科教学 审核评估网" width="160" height="120" border="0"></a>
+                                </div>
+                            </li>
+                            <li style="float: left; width: 140px;">
+                                <div class="pe_u_thumb">
+                                    <a href="http://www.chnu.edu.cn/Item/31396.aspx" target="_blank"><img src="files/201910180902116389.jpg" alt="不忘初心牢记使命" width="160" height="120" border="0"></a>
+                                </div>
+                            </li>
+                            <li style="float: left; width: 140px;">
+                                <div class="pe_u_thumb">
+                                    <a href="http://www.chnu.edu.cn/Item/31395.aspx" target="_blank"><img src="files/201606151401009010.jpg" alt="淮北师范大学信息学院" width="160" height="120" border="0"></a>
+                                </div>
+                            </li>
+                            <li style="float: left; width: 140px;">
+                                <div class="pe_u_thumb">
+                                    <a href="http://www.chnu.edu.cn/Item/31393.aspx" target="_blank"><img src="files/201606151359382805.jpg" alt="国培计划" width="160" height="120" border="0"></a>
+                                </div>
+                            </li>
+
+                            <li class="clone" style="float: left; width: 140px;">
+                                <div class="pe_u_thumb">
+                                    <a href="http://www.chnu.edu.cn/Item/139343.aspx" target="_blank"><img src="files/201912300944062935.jpg" alt="十九届四中全会专题网" width="160" height="120" border="0"></a>
+                                </div>
+                            </li>
+                            <li class="clone" style="float: left; width: 140px;">
+                                <div class="pe_u_thumb">
+                                    <a href="http://www.chnu.edu.cn/Item/111683.aspx" target="_blank"><img src="files/201712221006252881.jpg" alt="十九大专题网站" width="160" height="120" border="0"></a>
+                                </div>
+                            </li>
+                            <li class="clone" style="float: left; width: 140px;">
+                                <div class="pe_u_thumb">
+                                    <a href="http://www.chnu.edu.cn/Item/108723.aspx" target="_blank"><img src="files/201710241419521933.jpg" alt="本科教学 审核评估网" width="160" height="120" border="0"></a>
+                                </div>
+                            </li>
+                            <li class="clone" style="float: left; width: 140px;">
+                                <div class="pe_u_thumb">
+                                    <a href="http://www.chnu.edu.cn/Item/31396.aspx" target="_blank"><img src="files/201910180902116389.jpg" alt="不忘初心牢记使命" width="160" height="120" border="0"></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                jQuery("#zt").slide({
+                    titCell: ".slideNav li",
+                    mainCell: ".bd ul",
+                    effect: "leftLoop",
+                    interTime: 3000,
+                    autoPlay: true,
+                    vis: 4
+                });
+            </script>
+
+
+
+        </div>
+        <!--左边主体部分 end-->
+
+    </div>
+    <div class="clear blank"></div>
+    <!--主体部分 end-->
+
+
+
+
+    <div id="friendLink" class="">
+        <div class="hd">
+            <h3><span>友情链接</span></h3>
+            <ul class="linksel">
+
+                <li><a href="http://www.chnu.edu.cn/Item/81403.aspx" target="_blank" title="标题：教育部
+点击数：16963
+发表时间：16年06月30日">教育部</a></li>
+                <li class="last"><a href="http://www.chnu.edu.cn/Item/81402.aspx" target="_blank" title="标题：安徽省教育厅
+点击数：64684
+发表时间：16年06月30日">安徽省教育厅</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="clear blank"></div>
+
+    <!--网站底部-->
+    <div id="footerBox">
+        <div class="foot">
+            <div class="biaoshi">
+                <a href="http://bszs.conac.cn/sitename?method=show&amp;id=26E5DC93F33014F2E053012819ACB06D" target="_blank" style="position:absolute;left:140px;top:10px;"><img src="files/biaoshi.png"></a>
+            </div>
+            <div class="phonel"><img src="files/sjewm.png" width="91" height="91"></div>
+            <div class="copyright">
+                版权所有：淮北师范大学 Copyright®2015 <a href="http://beian.miit.gov.cn/" target="_blank">皖ICP备15018844号</a><br>
+                <span>地址：安徽省淮北市东山路100号</span> <span>邮政编码：235000</span> <span> 网站维护：淮北师范大学网络与信息管理中心</span>
+            </div>
+        </div>
+    </div>
+    <script>
+        jQuery(".js-tab").slide({
+            delayTime: 0,
+            startFun: function(i, c, s, t) {
+                s.find(".more").attr("href", t.eq(i).find("a").attr("href"));
+            }
+        });
+    </script>
+
+
+
+
+    <div>
+        <div style="display: none; position: fixed; top: 30px; width: auto; max-width: 100%; text-align: center; left: 50%; transform: translateX(-50%); z-index: 99999999;">
+            <div style="display: inline-block; font-size: 14px; font-weight: bold; border: 1px solid rgb(240, 195, 109); background-color: rgb(249, 237, 190); padding: 0px 10px; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;"></div>
+        </div>
+    </div>
+</body>
+
+</html>

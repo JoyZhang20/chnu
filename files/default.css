@@ -1,0 +1,86 @@
+﻿@charset "utf-8";
+/*
+Css for PEL,	ver 1.0
+CopyRight  Dongyi Network Technology CO.,Ltd Design Center
+*/
+
+/* Css Reset */
+/*---- 全局定义开始----*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, table, th, td {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+body{ font-size:14px; font:14px/28px "微软雅黑"; background:#e3e3e3;  width:100%;}
+img {border:none;}
+.fl{float:left;}
+.fr{float:right;}
+.border{border:1px #53b1fa solid;}
+.clear { clear:both; padding:0; margin:0px;}
+a{color:#363636; text-decoration:none; outline:medium none; font:14px/28px "微软雅黑"; font-size:14px; }
+a:hover{color:#d40000;}
+.more{ float:right; padding-top:10px;color:#7e7e7e;font-size:12px; }
+.date{float:right;color:#7e7e7e; }
+ul, li {list-style: none;}
+.blank{height:16px;font-size:0px; line-height:0; }
+
+
+/*总体宽度*/
+.head,.headbanner,#friendLink,.footnav,.copyright,.ColumnBanner{ width:1200px; margin:0 auto;}
+
+/*顶部定义*/
+#top{ width:100%; height:36px; background-color:#b7b7b7; }
+.head{ line-height:36px; color:#2a2a2a;}
+.head .wolcome{ float:left; padding-left:25px; overflow:hidden;}
+.head .login{ float:right; padding-right:10px; overflow:hidden;}
+.head .login a{ color: #2a2a2a; padding-left:10px; margin-right:5px; font-size:14px;}
+.head .login a:hover{text-decoration:underline; color:#d40000; }
+/*logo 搜索 */
+#header{ height:110px; _height:110px; width:100%; background:#9d020a; }
+.headbanner{ height:110px; position:relative; background:url(images/header_bg.jpg) no-repeat center top;}
+.headbanner .logo{ float:left; width:385px;}
+.headbanner .search{ float:right; padding-top:40px;overflow:hidden; width:250px; padding-right:30px;}
+.headbanner .search input{background: url(images/search.png) no-repeat 10px 7px #FFF; height:28px; line-height:28px;  width: 180px;padding-left: 25px; border:none; filter:alpha(opacity=80); /*IE滤镜，透明度50%*/-moz-opacity:0.8; /*Firefox私有，透明度50%*/ opacity:0.8;/*其他，透明度50%*/}
+.headbanner .search a.searchBtn{border:none;background:#791215; width:45px; height:28px; color:#fff; display: block; float: right; text-align:center;}
+
+
+/*导航定义*/
+#navBox{ width:100%; height:40px;line-height:40px; background:#85060d;}
+
+.mainNavType{ z-index:9; zoom:1; height:40px; line-height:40px;  position:relative; margin-left:10px;width:1250px; margin:0 auto;}
+.mainNavType *{ zoom:1; vertical-align:top;}
+.mainNavType .ul1{ display:none;  position:absolute; top:40px; left:0px; width:124px; text-align:center;background:url(images/png.png) repeat; } 
+.mainNavType li{ position:relative;}
+.mainNavType a{ display:block;}
+.mainNavType li.spe{display:inline-block; *display:inline; zoom:1; color:#fff; background:none;}
+.mainNavType .li1{ display:inline-block; *display:inline;}
+.mainNavType .h1{ display:inline-block; *display:inline;}
+.mainNavType .li1 .a1{  display:inline-block; *display:inline; font-size:16px; font-weight:100; height:40px; line-height:40px; color:#fff; width:124px; text-align:center;   }
+.mainNavType .on1 .a1{ text-decoration:none;background:#f4e8e8; height:40px; width:124px; color:#ae0000; }
+.mainNavType .li2 ul{ top:0px; left:124px; }
+.mainNavType .li2 a{  color:#fff; }
+.mainNavType .li2 .a2{ line-height:35px;  *margin:0;}
+.mainNavType .on2 .a2{ background-color:#5b010b; } 
+
+.mainNavType #ulID94{ width:260px; }
+
+.mainNavType #ulID33{ width: 1200px;left:-248px; padding:30px 0px;}
+.mainNavType #ulID33 .li2{float: left;width:165px;}
+.mainNavType #ulID33 .li2 a{ font-size: 13px;}
+
+
+
+
+/*主体部分定义*/
+.content{ width:1176px; margin:0 auto; background:#FFF; overflow:hidden; padding:12px; }
+
+
+/*底部定义*/
+#footerBox { background-color:#85060d; width:100%; height:120px;text-align:center;color:#FFF;  }
+#footerBox a{color:#FFF; text-decoration:underline;}
+#footerBox .foot{width:1200px; margin:0 auto; height:110px;position:relative;}
+#footerBox .phonel{ position:absolute;right:105px; top:18px; width:91px; height:91px;}
+#footerBox .copyright{ text-align:center; line-height:28px; font-size:14px; padding-top:10px; }
+#footerBox .copyright span{padding-left:15px;}
+
+
